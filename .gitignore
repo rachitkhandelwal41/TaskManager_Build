@@ -1,0 +1,33 @@
+# ========== Global ==========
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# ========== Backend ==========
+# Ignore TS source and node_modules
+/backend/src/
+/backend/node_modules/
+/backend/tsconfig.build.json
+/backend/tsconfig.tsbuildinfo
+
+# Keep only dist, env, and essential configs
+!/backend/dist/
+!/backend/.env
+!/backend/package.json
+!/backend/package-lock.json
+!/backend/tsconfig.json
+
+# ========== Frontend ==========
+# Ignore build output and dependencies
+/frontend/dist/
+/frontend/node_modules/
+
+# Keep env only if it's the main one
+/frontend/.env.*
+!/frontend/.env

@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Import Doto */
+@font-face {
+  font-family: Doto;
+  src: url("../src/assests/fonts/Doto-Regular.ttf") ;
+
+}
+
+/* Import Quicksand */
+@font-face {
+  font-family: Quicksand;
+  src: url("../src/assests/fonts/Quicksand-Regular.ttf") ;
+  
+}
+
+@theme{
+    --font-quicksand:Quicksand,"sans-serif";
+}
+@theme{
+    --font-doto:Doto,"sans-serif";
+}
