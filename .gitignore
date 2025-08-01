@@ -11,14 +11,12 @@ Thumbs.db
 
 # ========== Backend ==========
 # Ignore TS source and node_modules
-/backend/src/
 /backend/node_modules/
 /backend/tsconfig.build.json
 /backend/tsconfig.tsbuildinfo
 
 # Keep only dist, env, and essential configs
-!/backend/dist/
-!/backend/.env
+
 !/backend/package.json
 !/backend/package-lock.json
 !/backend/tsconfig.json
@@ -28,6 +26,4 @@ Thumbs.db
 /frontend/dist/
 /frontend/node_modules/
 
-# Keep env only if it's the main one
-/frontend/.env.*
-!/frontend/.env
+
